@@ -1,0 +1,203 @@
+.container {
+    max-height: 60px;
+    max-width: 1450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: rgb(85, 172, 90);
+    height: 60px;
+}
+
+.container h1 {
+    font-size: 35px;
+    margin: 100px;
+    color: white;
+}
+
+.menu a {
+    margin: 30px;   
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.search {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.search input {
+    margin-right: 10px;
+    width: 200px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: thin;
+    text-align: center;
+    font-size: 15px;
+}
+
+.search button {
+    border-radius: 2px;
+    background-color: rgb(85, 172, 90);
+    border-color: rgb(85, 172, 90);
+    border-style: solid;
+    color: white;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.search button:hover {
+    background-color: rgb(70, 140, 73);
+    border-color: rgb(70, 140, 73);
+}
+
+.invalid {
+    display: none;
+    background-color: rgb(85, 172, 90);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    height: 80px;
+    margin-left: 450px;
+    margin-top: 180px;
+}
+
+.card {
+    display: none;
+    margin-top: 15px;
+    margin-left: 350px;
+    background-color: white;
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(85, 172, 90);
+    border-radius: 20px;
+    width: 800px;
+    height: 500px;
+}
+
+.name {
+    text-align: center;
+}
+
+.stockinfo, .cryptoinfo {
+    margin-left: 25px;
+}
+
+.stockinfo h4{
+    font-weight: lighter;
+    margin-top: -15px;
+}
+
+.stockinfo h1 {
+    text-align: right;
+    margin-top: -75px;
+    margin-right: 25px;
+}
+
+.cryptoinfo h2 {
+    margin-top: 25px;
+}
+
+.cryptoinfo h1 {
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 25px;
+}
+
+#chart {
+    margin-top: 40px;
+}
+
+.newstitle {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#newscard {
+    width: 1000px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: 2px;
+    border-style: solid;  
+    border-color: gray;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: rgb(85, 172, 90);
+}
+
+#newscard img {
+    margin-left: 800px;
+    margin-top: 20px;
+    max-width: 40%;
+    max-height: 40%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 0px;
+    border-color: rgb(85, 172, 90);
+}
+
+#headline {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -120px;
+    width: 700px;
+}
+
+#source {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#summary {
+    margin-top: -5px;
+    margin-left: 10px;
+    width: 700px;
+}
+
+#newscard #url {
+    margin-left: 848px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.homecard {
+    background-color: rgb(85, 172, 90);
+    height: 250px;
+    width: 800px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+.hometitle {
+    color: white;
+    padding-top: 30px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 190px;
+}
+
+.homeinfo {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 500px;
+    margin-left: 150px;
+}
